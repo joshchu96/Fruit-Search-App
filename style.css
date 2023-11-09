@@ -1,0 +1,79 @@
+* {  /* the * selector means it will apply to all the elements on the page.*/
+  box-sizing: border-box; 
+  
+}
+
+:focus { /*selector will target elements currently being used like input if it is clicked. */
+ /* TODO */
+ border-color: #00f;
+ box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+}
+
+body { /*selector targets entire body of the page so change background color, font and margins. */
+  /* TODO */
+  background-color: #f0f0f0;
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin:0;
+  padding:0;
+}
+
+input { /*selector targets the input element so it can change text color and border adn padding of it. */
+ /* TODO */
+ width: 300px;
+ padding: 10px;
+ border: 2px solid #333;
+ background-color: #fff;
+ font-size: 16px;
+ border-radius: 5px;
+ outline: none;
+}
+
+.search-container { /*selector targets the whole search box w/ drop list. aim to center in middle of page. */
+ /* TODO */
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+}
+.search-container input,
+.search-container .suggestions {
+  /* TODO */
+}
+.search-container input {
+ /* TODO */
+}
+.search-container .suggestions {
+   /* TODO */
+   display: none;
+   position: absolute;
+   top: 100%;
+   left: 0;
+   width: 100%;
+   max-height: 150px;
+   overflow-y: auto;
+   border: 1px solid #ccc;
+   border-top: none;
+   border-radius: 0 0 5px 5px;
+
+}
+
+ul {
+  /* TODO */
+}
+ul.has-suggestions {
+  /* TODO */
+  display: block;
+}
+ul li {
+  /* TODO */
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+ul li:hover {
+  /* TODO */
+  background-color:#f0f0f0;
+}
+
